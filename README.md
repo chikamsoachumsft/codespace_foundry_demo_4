@@ -59,6 +59,20 @@ The solution provides a Python-based client for testing connectivity to Palantir
 
 ## Usage
 
+### Quick Start (Recommended)
+
+The easiest way to get started is using the quick start script:
+
+```bash
+python quick_start.py
+```
+
+This script will:
+1. Check if your environment is properly configured
+2. Validate your settings
+3. Run connectivity tests
+4. Provide troubleshooting tips if issues are found
+
 ### Basic Connectivity Test
 
 Run the connectivity test script:
@@ -161,7 +175,8 @@ python foundry_client.py
 ├── .env.example             # Example environment configuration
 ├── .gitignore               # Git ignore rules
 ├── foundry_client.py        # Main Foundry API client
-└── test_foundry_client.py   # Unit tests
+├── test_foundry_client.py   # Unit tests
+└── quick_start.py           # Quick start/setup script
 ```
 
 ## Security Considerations
