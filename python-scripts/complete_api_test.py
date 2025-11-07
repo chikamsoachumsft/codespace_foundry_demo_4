@@ -7,7 +7,7 @@ base_url = "https://foundry-codespace-demo.services.ai.azure.com"
 openai_url = "https://foundry-codespace-demo.openai.azure.com"
 
 # API Key (from your existing configuration)
-api_key = "YOUR_API_KEY_HERE"  # Replace with your actual API key
+api_key = "F3Iqr1Xjic8fEGH0YanUQmMWesrAKloI2mJh56dkhAY1PhcP2OrDJQQJ99BKACYeBjFXJ3w3AAAAACOGwZEZ"  # Replace with your actual API key
 
 def test_endpoint(url, headers, payload=None, method="POST", test_name="Test"):
     """Generic function to test endpoints"""
